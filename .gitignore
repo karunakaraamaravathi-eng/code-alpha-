@@ -1,0 +1,47 @@
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Model Weights & Data cache (optional)
+*.keras
+*.h5
+*.pkl
+!Task_3_Music_Generation/notes.pkl
+
+# Logs & OS artifacts
+*.log
+.DS_Store
+Thumbs.db

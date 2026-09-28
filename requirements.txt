@@ -1,0 +1,23 @@
+# Unified Dependencies for CodeAlpha Artificial Intelligence Internship Tasks
+
+# Web App & UI
+streamlit>=1.30.0
+
+# Task 1: Language Translation Tool
+deep-translator>=1.11.4
+gTTS>=2.5.0
+langdetect>=1.0.9
+requests>=2.31.0
+
+# Task 2: FAQ Chatbot (NLP & Information Retrieval)
+nltk>=3.8.1
+scikit-learn>=1.3.0
+
+# Task 3: Music Generation with AI (Deep Learning & Musicology)
+music21>=9.1.0
+tensorflow>=2.15.0
+scipy>=1.11.0
+
+# Scientific Computing & Data Processing
+numpy>=1.24.0
+pandas>=2.0.0

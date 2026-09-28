@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "category": "Orders & Shipping",
+    "question": "How do I track my order status?",
+    "answer": "You can track your order by navigating to 'My Account' > 'Orders' and clicking 'Track Package'. You will also receive an SMS and email with live carrier tracking links upon dispatch.",
+    "keywords": ["track", "order", "status", "shipment", "delivery status", "package"],
+    "sample_queries": [
+      "Where is my package?",
+      "Can I track my order?",
+      "How to check delivery status?",
+      "Track my shipment"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Orders & Shipping",
+    "question": "What are the standard delivery timeframes and shipping fees?",
+    "answer": "Standard shipping takes 3-5 business days and is free on orders above $50. Express shipping takes 1-2 business days for a flat rate of $9.99.",
+    "keywords": ["delivery time", "shipping cost", "shipping fee", "how long delivery", "express shipping"],
+    "sample_queries": [
+      "How long does delivery take?",
+      "What is the cost of shipping?",
+      "How much for express delivery?",
+      "When will I receive my items?"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Orders & Shipping",
+    "question": "Can I modify or cancel my order after placing it?",
+    "answer": "You can cancel or modify your order within 60 minutes of placing it from the 'My Orders' dashboard. After 60 minutes, processing begins and you may return the items upon receipt instead.",
+    "keywords": ["cancel order", "modify order", "change address", "edit items", "stop order"],
+    "sample_queries": [
+      "I want to cancel my order",
+      "Can I change the delivery address?",
+      "How do I cancel items?",
+      "Stop order processing"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Returns & Refunds",
+    "question": "What is your return policy?",
+    "answer": "We offer a 30-day hassle-free return policy for items in their original condition and packaging with original tags attached.",
+    "keywords": ["return policy", "returns", "30 days", "send back", "return item"],
+    "sample_queries": [
+      "How do returns work?",
+      "What is the return window?",
+      "Can I return an opened item?",
+      "Return policy details"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Returns & Refunds",
+    "question": "How long does it take to receive my refund?",
+    "answer": "Once our fulfillment center inspects your returned package, refunds are initiated within 3-5 business days. Bank processing to your original payment method may take an additional 2-7 business days.",
+    "keywords": ["refund time", "money back", "refund status", "when refund", "return credit"],
+    "sample_queries": [
+      "When will I get my refund?",
+      "How long for money back?",
+      "Where is my return refund?",
+      "Refund processing timeline"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Returns & Refunds",
+    "question": "How do I exchange an item for a different size or color?",
+    "answer": "To initiate an exchange, go to 'My Orders' > 'Return/Exchange', select the desired replacement size or color, and print your prepaid return label.",
+    "keywords": ["exchange", "replace", "wrong size", "different color", "swap item"],
+    "sample_queries": [
+      "Can I exchange for a larger size?",
+      "How do I replace a product?",
+      "Wrong color received, want exchange",
+      "Swap for different size"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Payments & Billing",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, MasterCard, American Express, PayPal, Apple Pay, Google Pay, and Klarna / Afterpay installments.",
+    "keywords": ["payment methods", "credit card", "paypal", "apple pay", "pay options"],
+    "sample_queries": [
+      "How can I pay?",
+      "Do you take PayPal?",
+      "What cards are accepted?",
+      "Is Apple Pay supported?"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Payments & Billing",
+    "question": "Is my payment information and credit card secure?",
+    "answer": "Yes. All transactions are encrypted with 256-bit SSL encryption and processed via PCI-DSS Level 1 certified gateways. We never store raw card numbers on our servers.",
+    "keywords": ["security", "credit card safety", "secure payment", "ssl", "safe checkout"],
+    "sample_queries": [
+      "Is payment safe on this site?",
+      "Are credit cards secure?",
+      "Is checkout encrypted?",
+      "How secure is my billing information?"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Payments & Billing",
+    "question": "Why was my payment declined?",
+    "answer": "Common reasons include mismatched billing ZIP codes, insufficient funds, or automated anti-fraud security blocks by your bank. We suggest checking billing details or contacting your bank.",
+    "keywords": ["payment declined", "card failed", "transaction rejected", "billing error"],
+    "sample_queries": [
+      "My card was declined",
+      "Why did checkout fail?",
+      "Payment not going through",
+      "Transaction error at checkout"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Account & Security",
+    "question": "How do I reset my account password?",
+    "answer": "Click 'Sign In', select 'Forgot Password?', enter your registered email address, and follow the password reset link sent to your inbox.",
+    "keywords": ["forgot password", "reset password", "change password", "cannot login", "recover account"],
+    "sample_queries": [
+      "I forgot my password",
+      "How to reset password?",
+      "Cannot log into account",
+      "Recover my account"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Account & Security",
+    "question": "How do I enable Two-Factor Authentication (2FA)?",
+    "answer": "Go to 'Account Settings' > 'Security' > 'Two-Factor Authentication' and scan the QR code using Google Authenticator, Authy, or Microsoft Authenticator.",
+    "keywords": ["2fa", "two factor", "multi factor", "authentication", "account security"],
+    "sample_queries": [
+      "How to setup 2FA?",
+      "Enable two factor authentication",
+      "Protect account with 2FA",
+      "Add security step login"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Account & Security",
+    "question": "How do I update my profile details and shipping addresses?",
+    "answer": "Navigate to 'Account' > 'Address Book & Profile' to update your name, contact phone number, default shipping addresses, and communication preferences.",
+    "keywords": ["update profile", "change address", "edit phone", "manage addresses"],
+    "sample_queries": [
+      "How to change my address?",
+      "Update profile phone number",
+      "Edit saved addresses",
+      "Modify account info"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Technical & Support",
+    "question": "How do I contact customer support or speak to a live human agent?",
+    "answer": "You can reach our 24/7 customer care team via live chat in the bottom right corner, email us at support@example.com, or call toll-free at 1-800-555-0199.",
+    "keywords": ["contact support", "customer care", "human agent", "phone number", "email support", "help desk"],
+    "sample_queries": [
+      "Talk to human agent",
+      "Customer support phone number",
+      "How do I reach support?",
+      "Need help from real person"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Technical & Support",
+    "question": "What should I do if I received a damaged or defective item?",
+    "answer": "We sincerely apologize! Please visit 'My Orders' > 'Report Issue', attach a photo of the damaged product within 7 days of delivery, and we will dispatch a free replacement immediately.",
+    "keywords": ["damaged item", "defective product", "broken item", "faulty product", "replacement"],
+    "sample_queries": [
+      "My item arrived broken",
+      "Received defective product",
+      "Package was damaged",
+      "How to report broken delivery?"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Technical & Support",
+    "question": "Do you ship internationally?",
+    "answer": "Yes! We ship to over 100 countries worldwide. International shipping rates and estimated customs duties will be calculated at checkout based on your destination country.",
+    "keywords": ["international shipping", "worldwide delivery", "global shipping", "customs", "overseas"],
+    "sample_queries": [
+      "Do you ship abroad?",
+      "International delivery options",
+      "Can you ship to UK / Europe / India / Canada?",
+      "Global shipping cost"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "AI Assistant Info",
+    "question": "What is this AI FAQ Assistant and how does it work?",
+    "answer": "This FAQ Assistant is an AI-driven conversational agent developed for CodeAlpha Task 2. It utilizes Natural Language Processing (tokenization, lemmatization) and TF-IDF vectorization with Cosine Similarity to find the most accurate answer for your questions.",
+    "keywords": ["what is this bot", "ai assistant", "how it works", "codealpha chatbot", "nlp architecture"],
+    "sample_queries": [
+      "Who are you?",
+      "What can this chatbot do?",
+      "How do you work?",
+      "Tell me about this AI assistant"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "AI Assistant Info",
+    "question": "What technologies power this FAQ Chatbot?",
+    "answer": "This chatbot is built using Python, NLTK for text preprocessing, Scikit-learn for TF-IDF Vectorization and Cosine Similarity, and Streamlit for an interactive conversational UI.",
+    "keywords": ["technologies", "tech stack", "python", "nltk", "scikit-learn", "streamlit"],
+    "sample_queries": [
+      "What tech stack is used?",
+      "How is this built?",
+      "What algorithms are running?",
+      "Which libraries do you use?"
+    ]
+  }
+]
