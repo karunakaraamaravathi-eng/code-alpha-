@@ -114,13 +114,20 @@ class LanguageTranslator:
         return {k: self._supported_languages[k] for k in sorted(self._supported_languages.keys())}
 
     def _translate_gtx(self, text: str, source_lang: str, target_lang: str) -> Optional[str]:
-        """Direct Google Translate GTX endpoint."""
+        """Direct Google Translate GTX endpoint with parameter dictionary."""
         src = "auto" if source_lang == "auto" else source_lang
         tgt = target_lang
-        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl={src}&tl={tgt}&dt=t&q={urllib.parse.quote(text)}"
-        headers = {"User-Agent": "Mozilla/5.0"}
+        url = "https://translate.googleapis.com/translate_a/single"
+        params = {
+            "client": "gtx",
+            "sl": src,
+            "tl": tgt,
+            "dt": "t",
+            "q": text
+        }
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
         
-        response = requests.get(url, headers=headers, timeout=6)
+        response = requests.get(url, params=params, headers=headers, timeout=6)
         if response.status_code == 200:
             data = response.json()
             if data and isinstance(data, list) and len(data) > 0 and data[0]:
